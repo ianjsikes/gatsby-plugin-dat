@@ -1,0 +1,23 @@
+{
+  "name": "gatsby-plugin-dat",
+  "version": "0.1.0",
+  "description": "Publishes your static site using the Dat protocol",
+  "main": "index.js",
+  "repository": "https://github.com/ianjsikes/gatsby-plugin-dat",
+  "author": "Ian J Sikes",
+  "license": "MIT",
+  "keywords": [
+    "decentralized",
+    "dat",
+    "beaker",
+    "p2p",
+    "gatsby",
+    "gatsby-plugin"
+  ],
+  "private": false,
+  "dependencies": {
+    "dat-node": "^3.5.15",
+    "dat-pinning-service-client": "^2.0.3",
+    "mkdirp": "^0.5.1"
+  }
+}
