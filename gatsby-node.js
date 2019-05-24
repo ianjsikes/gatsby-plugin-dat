@@ -78,6 +78,7 @@ exports.onPostBuild = async (args, options) => {
     console.log(
       'https://beakerbrowser.com/docs/guides/use-a-domain-name-with-dat#dat-dns-txt-records'
     );
+    console.log('Run `dat ./public` to seed your site.');
   } catch (err) {
     console.log('ERROR: Failed to publish site to dat!');
     throw err;
